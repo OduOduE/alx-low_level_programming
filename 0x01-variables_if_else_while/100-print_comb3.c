@@ -4,7 +4,8 @@
  *
  * Result:i Always 0 (Success)
  */
-main(void)
+int main(void)
+
 {
 	int num;
 	int nums;
