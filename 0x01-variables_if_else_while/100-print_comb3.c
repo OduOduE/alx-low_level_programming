@@ -5,19 +5,18 @@
  * Result:i Always 0 (Success)
  */
 int main(void)
-
 {
-	int num;
-	int nums;
+	int tens;
+	int ones;
 
-	for (num = 0; num <= 9; num++)
+	for (tens = 0; tens <= 9; tens++)
 	{
-		for (nums = num + 1; nums <= 9; nums++)
+		for (ones = tens + 1; ones <= 9; ones++)
 		{
-			putchar(num + '0');
-			putchar(nums + '0');
+			putchar(tens + '0');
+			putchar(ones + '0');
 
-			if (num < 8)
+			if (tens < 8)
 			{
 				putchar(',');
 				putchar(' ');
