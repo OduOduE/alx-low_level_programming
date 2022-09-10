@@ -1,8 +1,10 @@
 #include <stdio.h>
 /**
- * main - Print all combinations of two digit numbers
+ * main - print combinations of two digit numbers
  *
- * Result:i Always 0 (Success)
+ * Description -the program gives combinations
+ *
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
