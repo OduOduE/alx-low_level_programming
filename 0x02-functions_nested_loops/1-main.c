@@ -1,16 +1,9 @@
 #include <stdio.h>
-#include "header.h"
+#include "main.h"
 
-int main()
+int main(void)
 {
-	int n, res;
-
-	printf("Please enter number: ");
-	scanf("%d", &n);
-	
-	res = square(n);
-	printf("Square of %d is %d\n", n, res);
-
+	print_alphabet();
 	return (0);
 }
 
