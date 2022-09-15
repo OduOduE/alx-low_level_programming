@@ -1,10 +1,8 @@
 #include "main.h"
-
 /**
  * print_line - a function to print a straight line
- * Return - Always 0 (Success)
+ * @n: integer amount of _
  */
-
 void print_line(int n)
 {
 	char c;
