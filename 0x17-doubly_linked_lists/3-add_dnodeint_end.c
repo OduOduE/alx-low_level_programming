@@ -30,16 +30,16 @@ dlistint_t *add_dnodeint_end(dlistint_t **head, const int n)
 	{
 		newNode->prev = NULL;
 		*head = newNode;
-		return newNode;
+		return (newNode);
 	}
 	/* if linked list isn't empty traverse tmp to last node */
 	while (tmp->next != NULL)
 		tmp = tmp->next;
-	
+
 	/* point prev of newNode to last node (tmp) */
 	newNode->prev = tmp;
 	/* point next of last node (tmp) to newNode */
 	tmp->next = newNode;
-	
-	return newNode;
+
+	return (newNode);
 }
